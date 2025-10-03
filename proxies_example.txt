@@ -1,0 +1,14 @@
+# Proxy Listesi Örneği
+# Format: IP:Port:Username:Password (Username ve Password opsiyonel)
+# Örnekler:
+
+# HTTP Proxy'ler
+203.0.113.1:8080
+203.0.113.2:3128
+203.0.113.3:8080:user:pass
+
+# SOCKS5 Proxy'ler
+203.0.113.4:1080
+203.0.113.5:1080:username:password
+
+# Not: Gerçek proxy'ler kullanın, bu örnekler çalışmaz

@@ -1,0 +1,21 @@
+# Bu dosya build klasörü için .gitignore
+# Build klasöründe sadece gerekli dosyalar bulunmalı
+
+# Log dosyaları (kullanıcı tarafından oluşturulur)
+*.log
+activity_log.txt
+successful_logins.txt
+
+# Geçici dosyalar
+*.tmp
+*.temp
+
+# Kullanıcı konfigürasyonları
+config.json
+data.txt
+credentials.txt
+proxies.txt
+
+# Backup dosyaları
+*.bak
+*.backup
